@@ -1,5 +1,5 @@
 # AI Prompt Risk Scanner
-# AI Prompt Risk Scanner
+
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 ![Tests](https://img.shields.io/badge/Tests-Pytest-green)
