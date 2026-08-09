@@ -1,32 +1,28 @@
 # AI Prompt Risk Scanner
-
+# AI Prompt Risk Scanner
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 ![Tests](https://img.shields.io/badge/Tests-Pytest-green)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
-**Built With**
+## Built With
 
 - Python
 - Pytest
 - CSV
 - Git
+- Ruff
 
-A modular Python application that analyzes text prompts for potential AI safety risks using rule based detection, weighted risk scoring, and explainable results.
-
-The scanner evaluates prompts against configurable safety rules, assigns a risk score and risk level, identifies matched indicators, and provides recommendations for further review. It supports both interactive command line scanning and batch processing from CSV files.
-
-This project was built to demonstrate clean software architecture, modular Python design, automated testing, and AI safety concepts in a portfolio ready application.
 
 ## Features
 
-- Rule based prompt analysis using configurable safety rules.
+- Rule-based prompt analysis using configurable safety rules.
 - Weighted risk scoring with LOW, MEDIUM, HIGH, and CRITICAL risk levels.
 - Detection of multiple AI safety categories, including:
   - Prompt Injection
   - Credential Access
   - Jailbreak Attempts
-  - CBRNE Related Content
+  - CBRNE-Related Content
 - Explainable scan results with:
   - Matched rules
   - Matched indicators
@@ -36,7 +32,7 @@ This project was built to demonstrate clean software architecture, modular Pytho
 - Batch scanning of prompts from CSV files.
 - Batch summary reporting with:
   - Total prompts scanned
-  - Risk level distribution
+  - Risk-level distribution
   - Escalation count
 - Modular architecture for easy expansion and maintenance.
 - Unit tests using `pytest`.
@@ -126,7 +122,7 @@ pip install -e .
 
 ### Scan a Single Prompt
 
-Run the interactive command line interface:
+Run the interactive command-line interface:
 
 ```bash
 python src/prompt_risk_scanner/cli.py
@@ -208,7 +204,7 @@ Future enhancements planned for this project include:
 - REST API with FastAPI
 - Docker support
 - GitHub Actions for automated testing
-- Web based dashboard for scan results
+- Web-based dashboard for scan results
 
 ## Author
 
@@ -217,6 +213,11 @@ Future enhancements planned for this project include:
 U.S. Navy Explosive Ordnance Disposal (EOD) Technician transitioning into software engineering and AI safety.
 
 This project is part of a portfolio focused on AI safety, CBRNE risk analysis, and secure software engineering.
+
+GitHub: https://github.com/seanmccraney
+
+LinkedIn: https://www.linkedin.com/in/seanmccraney
+
 
 ## License
 
