@@ -1,5 +1,4 @@
 # AI Prompt Risk Scanner
-# AI Prompt Risk Scanner
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 ![Tests](https://img.shields.io/badge/Tests-Pytest-green)
@@ -12,6 +11,12 @@
 - CSV
 - Git
 - Ruff
+
+A modular Python application that analyzes text prompts for potential AI safety risks using rule-based detection, weighted risk scoring, and explainable results.
+
+The scanner evaluates prompts against configurable safety rules, assigns a risk score and risk level, identifies matched indicators, and provides recommendations for further review. It supports both interactive command-line scanning and batch processing from CSV files.
+
+This project was built to demonstrate clean software architecture, modular Python design, automated testing, and AI safety concepts in a portfolio-ready application.
 
 
 ## Features
